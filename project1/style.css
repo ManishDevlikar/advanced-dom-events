@@ -1,0 +1,88 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+header {
+    background-color: #313131;
+    height: 100vh;
+
+}
+
+nav {
+    background-color: aliceblue;
+    width: 100%;
+    margin: auto;
+    border-radius: 0.1rem;
+}
+
+.sticky {
+    position: fixed;
+}
+
+ul {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+ul>li>a {
+    display: inline-block;
+    text-decoration: none;
+    color: #212121;
+}
+
+section {
+    height: 60vh;
+    background-color: #313131;
+    color: antiquewhite;
+    transition: all .5s ease-in;
+}
+
+.section--hidden {
+    transform: translateY(3rem);
+    opacity: 0;
+}
+
+#section-1-div,
+#section-2-div {
+    width: 70%;
+    margin: auto;
+}
+
+#section-3 {
+    height: 80vh;
+}
+
+#section-3-div {
+
+    width: 80%;
+    margin: 2rem auto auto auto;
+    background-color: aliceblue;
+    color: #313131;
+    height: 40vh;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+}
+
+.slide {
+    color: black;
+    position: absolute;
+    text-align: center;
+    border: 1px solid red;
+    height: 40vh;
+}

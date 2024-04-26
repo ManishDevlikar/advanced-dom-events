@@ -1,0 +1,51 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header {
+    height: 90vh;
+    text-align: center;
+    color: #313131;
+    background-color: aliceblue;
+    margin-bottom: 2rem;
+}
+
+section {
+    height: 70vh;
+    background-color: white;
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+section div {
+    border: 1px solid white;
+    width: 40%;
+    text-align: center;
+    padding: 3rem;
+    margin: 2rem;
+    background-color: white;
+    color: #212121;
+}
+
+section div p {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+section div img {
+    display: inline-block;
+    min-width: 80%;
+}

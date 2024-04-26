@@ -1,0 +1,32 @@
+body {}
+
+button {
+    padding: 10px 20px 10px 20px;
+    border: 1px solid whitesmoke;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#yellow {
+    color: #313131;
+    background-color: yellow;
+}
+
+#orange {
+    color: white;
+    background-color: orange;
+}
+
+#black {
+    color: ivory;
+    background-color: #212121;
+}
+
+div {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    gap: 1.5rem;
+    /* border: 1px solid white; */
+    justify-content: center;
+}

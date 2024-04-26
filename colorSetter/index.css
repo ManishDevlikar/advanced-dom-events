@@ -1,0 +1,43 @@
+body {
+    height: 100%;
+}
+
+div {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+input {
+    width: 50%;
+    height: 5vh;
+    border: none;
+    outline: none;
+    font-weight: 800;
+    color: #212121;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    border: 1px solid #313131;
+}
+
+input:focus {
+    border: 1px solid #212121;
+}
+
+input::placeholder {
+    letter-spacing: 4px;
+    font-weight: 800;
+    text-transform: lowercase;
+}
+
+button {
+    padding: 10px 12px 10px 12px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    border: 1px solid white;
+    font-weight: 800;
+    color: #313131;
+    background-color: antiquewhite;
+}
