@@ -1,0 +1,78 @@
+body {
+    background-color: #212121;
+    width: 100%;
+    color: aliceblue;
+    font-family: monospace;
+}
+
+.winner {
+    color: aliceblue;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+    border-radius: 2px;
+}
+
+.container div {
+    border: 1px solid aliceblue;
+    width: 50%;
+    padding: 1rem;
+    margin: auto;
+    margin-bottom: 3rem;
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.container div:hover {
+    transform: scale(1.02);
+}
+
+input {
+    background-color: #414141;
+    color: aliceblue;
+    font-size: 0.92rem;
+    font-weight: 500;
+    height: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+.buttons {
+    width: 80%;
+    margin: 2rem auto auto auto;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.buttons button {
+    font-family: monospace;
+    width: 7rem;
+    height: 2.5rem;
+    font-size: .9rem;
+    text-align: center;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: #212121;
+    border: 1px solid aliceblue;
+    transition: all .4s ease-in-out;
+    font-weight: 700;
+    border-radius: 2px;
+}
+
+.buttons button:hover {
+    background-color: #414141;
+    transform: scale(1.05);
+}
+
+
+.active {
+    border: 1px solid red !important;
+}
